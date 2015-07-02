@@ -14,6 +14,7 @@
 		6350C8E11B40204C005643B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6350C8E01B40204C005643B0 /* Images.xcassets */; };
 		6350C8E41B40204C005643B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6350C8E21B40204C005643B0 /* LaunchScreen.xib */; };
 		6350C8F01B40204C005643B0 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6350C8EF1B40204C005643B0 /* TestTests.m */; };
+		63C6D97D1B4567A9006B9BF5 /* TestTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C6D97C1B4567A9006B9BF5 /* TestTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6350C8E91B40204C005643B0 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6350C8EE1B40204C005643B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6350C8EF1B40204C005643B0 /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		63C6D97B1B4567A9006B9BF5 /* TestTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestTabBarViewController.h; path = TestVCs/TestTabBarViewController.h; sourceTree = "<group>"; };
+		63C6D97C1B4567A9006B9BF5 /* TestTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestTabBarViewController.m; path = TestVCs/TestTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +66,9 @@
 		6350C8C71B40204C005643B0 = {
 			isa = PBXGroup;
 			children = (
+				63C6D97E1B456B9E006B9BF5 /* Resouses */,
 				6350C8D21B40204C005643B0 /* Test */,
+				63C6D97A1B45677D006B9BF5 /* TestVCs */,
 				6350C8EC1B40204C005643B0 /* TestTests */,
 				6350C8D11B40204C005643B0 /* Products */,
 			);
@@ -117,6 +122,23 @@
 				6350C8EE1B40204C005643B0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63C6D97A1B45677D006B9BF5 /* TestVCs */ = {
+			isa = PBXGroup;
+			children = (
+				63C6D97B1B4567A9006B9BF5 /* TestTabBarViewController.h */,
+				63C6D97C1B4567A9006B9BF5 /* TestTabBarViewController.m */,
+			);
+			name = TestVCs;
+			path = Test;
+			sourceTree = "<group>";
+		};
+		63C6D97E1B456B9E006B9BF5 /* Resouses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resouses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C6D97D1B4567A9006B9BF5 /* TestTabBarViewController.m in Sources */,
 				6350C8DC1B40204C005643B0 /* ViewController.m in Sources */,
 				6350C8D91B40204C005643B0 /* AppDelegate.m in Sources */,
 				6350C8D61B40204C005643B0 /* main.m in Sources */,
@@ -418,6 +441,7 @@
 				6350C8F51B40204C005643B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6350C8F61B40204C005643B0 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +450,7 @@
 				6350C8F81B40204C005643B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
